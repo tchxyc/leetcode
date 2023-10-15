@@ -1,0 +1,6 @@
+alias b:=build
+
+default:
+  python main.py
+build target:
+  python {{target}}
